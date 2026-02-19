@@ -1,0 +1,32 @@
+## Instruction to run the code
+
+Prerequisites
+Python Installation: Ensure Python 3.7 or above is installed on your machine.
+
+Required Libraries: All the required libraries are given in the requirements.txt file. Please load all the libraries.
+
+Files Required:
+Ensure the following files are in the same directory:
+app.py (main application code)
+rf_model.pkl (Random Forest model)
+scaler.pkl (Scaler for preprocessing)
+feature_names.pkl (Feature names for input data)
+shap_explainer.pkl (SHAP explainer for model interpretability)
+Creditrsik_final.ipynb (Jupyter Notebook with all the logic and detailed steps)
+Note: The Jupyter Notebook file (Creditrsik_final.ipynb) contains all the logic used in the application, including data preprocessing, model training, and explainability analysis. You can open this file in Jupyter Notebook or any compatible IDE to review and modify the code.
+
+##Steps to Run the Application:
+1. Set Up the Environment
+2. Launch the Application (app.py)
+3. Access the Web Application
+4. Enter the required loan application details in the form provided on the webpage.
+5. Submit the form to receive a prediction:
+6. View Results:
+Results, including an approval/rejection status and feature impact explanations, will be displayed on the results page.
+
+##Additional Notes:##
+1. Dataset Disclaimer
+This Project highlights model explainability. Predictions are based on a Kaggle “Credit Risk” dataset commonly used for educational purposes. 
+a. Accuracy: This dataset may not reflect real-world credit risk data and should not be used for actual financial institutions' credit risk analysis or decision-making.
+b. Sensitivity: Credit risk data is highly sensitive, and care must be taken to ensure any insights derived are purely for learning and experimentation purposes.
+This project demonstrates machine learning techniques for credit risk assessment and is not meant for deployment in a professional or production-grade environment. Interpret results cautiously and do not rely solely on these predictions for financial decisions.
