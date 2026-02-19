@@ -239,6 +239,3 @@ This project is for **educational purposes only** (Kaggle Credit Risk dataset). 
 - SHAP and LIME show low correlation (-0.23), highlighting they capture different aspects of model behavior
 - Random Forest's high precision (96.7%) makes it well-suited for credit risk where false approvals are costly
 
----
-
-**Last Updated**: November 29, 2025
